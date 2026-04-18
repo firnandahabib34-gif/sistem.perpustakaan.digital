@@ -12,7 +12,7 @@
 <form>
     <input type="text" placeholder="Nama"><br><br>
     <input type="number" placeholder="Harga"><br><br>
-    <button>Tambah</button>
+    <button>Tambah produk</button>
 </form>
 @endforeach
 
