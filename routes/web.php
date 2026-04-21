@@ -27,3 +27,7 @@ Route::view('/dashboard', 'dashboard');
 
 
 Route::get('/product', [ProductController::class, 'index']);
+
+Route::get('/app', function () {
+return view('app');
+});
