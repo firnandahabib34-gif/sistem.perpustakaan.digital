@@ -1,4 +1,4 @@
-@extends('layout.landing')
+@extends('layouts.landing')
 
 @section('content')
 <h1>Contact</h1>

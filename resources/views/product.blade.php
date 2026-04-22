@@ -1,4 +1,4 @@
-@extends('layout.landing')
+@extends('layouts.landing')
 
 @section('content')
 <h1>Product</h1>
