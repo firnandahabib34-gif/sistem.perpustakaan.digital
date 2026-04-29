@@ -15,7 +15,7 @@
             <div class="alert alert-success">{{ session('success') }}</div>
         @endif
         
-        <form method="POST" action="{{ route('login') }}">
+        <form method="POST" action="/login">
             @csrf
             <div class="form-group">
                 <label>NIM / Username</label>
@@ -32,7 +32,7 @@
         </form>
         
         <div style="text-align: center; margin-top: 1rem;">
-            <a href="{{ route('register') }}" style="color: #3b82f6; text-decoration: none;">Belum punya akun? Daftar Sekarang</a>
+            <a href="/register" style="color: #3b82f6; text-decoration: none;">Belum punya akun? Daftar Sekarang</a>
         </div>
         
         <div style="margin-top: 1.5rem; background: #f1f5f9; padding: 1rem; border-radius: 1rem; font-size: 0.75rem;">

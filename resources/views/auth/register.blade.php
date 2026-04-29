@@ -38,6 +38,11 @@
                 @error('password') <small style="color: red;">{{ $message }}</small> @enderror
             </div>
             <div class="form-group">
+                <label>Program Studi</label>
+                <input type="prodi" name="prodi" required>
+                @error('password') <small style="color: red;">{{ $message }}</small> @enderror
+            </div>
+            <div class="form-group">
                 <label>Konfirmasi Password *</label>
                 <input type="password" name="password_confirmation" required>
             </div>

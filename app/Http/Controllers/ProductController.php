@@ -13,6 +13,6 @@ class ProductController extends Controller
             ['id' => 2, 'nama' => 'Minyak', 'harga' => 14000],
         ];
 
-        return view('product', compact('products'));
+        return view('pages.product', compact('products'));
     }
 }
